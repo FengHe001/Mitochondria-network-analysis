@@ -2,6 +2,7 @@
 Python codes used for network analysis of mitochondria-mitochondria interaction networks from 3D images
 
 To use our codes, please cite us (Zanin et al., Mitochondria-mitochondria interaction networks show altered topological patterns in Parkinson’s disease, 2020, in preparation). For more information, please contact Feng.he@lih.lu
+
 Exponential fit
 
 Script for calculating the slope of an exponential fit of the components’ sizes, and for calculating the p-value of the hypothesis that two slopes are the same.
