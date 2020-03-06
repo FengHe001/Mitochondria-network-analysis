@@ -36,6 +36,27 @@ The following auxiliary scripts are further used:
 •	Motifs4B.py: calculation of 4-nodes symmetric motifs.
 
 
+
+Classification
+
+The script for obtaining the classification scores and ROC curves is included in the file PerformClassification.py. The script assumes that all topological properties are saved in a file “allData.npy” that includes a numpy array. Several analyses are executed, each one of them yielding three variables:
+
+•	auc_*: the Area Under the Curve of the classification.
+•	fpr_* and tpr_*: False and True Positive Rate, used to plot the ROC curve of the classification task.
+
+The specific classification tasks executed are:
+
+•	Lines 27 and following: global classification with all instances.
+•	Lines 69 and following: classification with neurons of the left side only.
+•	Lines 112 and following: classification with neurons of the right side only.
+•	Lines 155 and following: classification of networks with less than 10 nodes.
+•	Lines 198 and following: classification of networks of sizes between 10 and 20.
+•	Lines 240 and following: classification of networks of more than 20 nodes.
+•	Lines 282 and following: classification using only global topological features, i.e. without motifs.
+•	Lines 323 and following: classification using 3-nodes motifs only.
+•	Lines 365 and following: classification using 4-nodes motifs only.
+
+
 Requirements
 
 •	Python, version 3.*
