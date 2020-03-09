@@ -1,7 +1,7 @@
 # MINs
 Python codes used for network analysis of mitochondria-mitochondria interaction networks from 3D images
 
-If you use our scripts, please gie us the credits by citing us (Zanin et al., Mitochondria-mitochondria interaction networks show altered topological patterns in Parkinson’s disease, 2020, in preparation). For more information, please contact Feng HE (Feng.he@lih.lu) or Massimiliano Zanin (massimiliano.zanin@gmail.com).
+If you use our scripts, please give us the credits by citing us (Zanin et al., Mitochondria-mitochondria interaction networks show altered topological patterns in Parkinson’s disease, 2020, in preparation). For more information, please contact Feng HE (Feng.he@lih.lu) or Massimiliano Zanin (massimiliano.zanin@gmail.com).
 
 Exponential fit
 
